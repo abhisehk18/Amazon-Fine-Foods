@@ -1,9 +1,7 @@
-<h2 align="center">Sentence Correction Using RNN</h3>
+<h2 align="center">Amazon Fine Foods Reviews</h3>
 
-<h3 align="left">Objective:</h3> </h4>Developing a model that can input corrupted sentence (short forms like ‘ppl’, ‘’u’, ’r’ etc.) and output its uncorrupted form (i.e., ‘people’, ’you’, ’are’ etc.) </h4>
-<h3 align="left">Source of Data:</h3> </h4> https://www.comp.nus.edu.sg/~nlp/corpora.html.
-
-https://www.cl.cam.ac.uk/research/nl/bea2019st/</h4>
+<h3 align="left">Objective:</h3> </h4>To build a model which takes reviews of products at Amazon and classifies it into whether the review is positive or negative. </h4>
+<h3 align="left">Source of Data:</h3> </h4> https://www.kaggle.com/snap/amazon-fine-food-reviews</h4>
 <p align="left">
 </p>
 
@@ -17,30 +15,38 @@ https://www.cl.cam.ac.uk/research/nl/bea2019st/</h4>
 
 <h3 align="left">Models tried:</h3>
 
-1.Encoder-Decoder Model
+1.KNN with BOW representation of reviews
 
-2.Encoder-Decoder with 2 layers in Encoder setup
+2.KNN with TF-IDF representation of reviews
 
-3.Encoder-Decoder with 2 layers in Encoder setup including 1st layer as Bidirectional LSTM
+3.Naive Bayes' with BOW representation of reviews
 
-4.Attention Model using Dot Scoring Function
+4.Naive Bayes' with TF-IDF representation of reviews
 
-5.Attention Model using General Scoring Function
+5.Logistic Regression with BOW representation of reviews
 
-6.Attention Model using Concat Scoring Function
+6.Logistic Regression with TF-IDF representation of reviews
+
+7.SVM(rbf kernel) with BOW representation of reviews
+
+8.SVM(rbf kernel) with TF-IDF representation of reviews
+
+9.Decision Tree with BOW representation of reviews
+
+10.Decision Tree with TF-IDF representation of reviews
+
+11.Random Forest with BOW representation of reviews
+
+12.Random Forest with TF-IDF representation of reviews
+
+
 
 <h3 align="left">Comparison of Model Performance:</h3>
 <div align="leftr">
-    <img src="/Screenshot 2022-01-28 203350.png" width="800px"</img> 
+    <img src="/Screenshot 2022-01-28 204907.png" width="800px"</img> 
 </div>
 
 
-
-<h3 align="left">Blog Link:</h3>
-https://medium.com/@abhishekrai352/sentence-correction-using-rnn-ce254977000
-
-<h3 align="left">Deployement Video Link:</h3>
-https://youtu.be/1h54AsJ3XnY
 
 <h3 align="left">LinkedIn:</h3>
 https://www.linkedin.com/in/abhishek-rai-8b3634169/
